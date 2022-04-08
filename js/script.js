@@ -1,15 +1,17 @@
-let stampa;
+
+const container = document.querySelector('.container'); 
 
 for(i=1; i<=100; i++){
-  
+  const stampa = document.createElement('h2')
   if(i % 3 === 0 && i % 5 === 0){
-    stampa = 'FizzBuzz';    
+    stampa.innerText = 'FizzBuzz';    
   }else if (i % 5 === 0){
-    stampa ='Buzz';
+    stampa.innerText ='Buzz';
   }else if (i % 3 === 0){
-    stampa = 'Fizz';
+    stampa.innerText = 'Fizz';
   }else{
-      stampa = i;
+      stampa.innerText = i;
   }
-  console.log(stampa)
+  console.log(stampa);
+  container.append(stampa);
 }

@@ -1,0 +1,26 @@
+.container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+}
+
+h2{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.fizz{
+  color: rgb(17, 100, 163);
+  font-style: italic;
+}
+.buzz{
+  color: rgb(228, 77, 38);
+  text-decoration: underline;
+}
+.fizz-buzz{
+  color: rgb(228, 89, 163);
+  font-style: italic;
+  text-decoration: underline;
+}
