@@ -2,25 +2,43 @@
   width: 70%;
   margin: 0 auto;
   background-color: rgb(30, 30, 30);
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.box{
+  
+  background-color: white;
+  display: flex; 
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
 }
 
 h2{
-  font-size: 50px;
-  color: white;
+  /* font-size: ; */
+  color: black;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
+
 .fizz{
-  color: rgb(17, 100, 163);
+  background-color: rgb(17, 100, 163);
   font-style: italic;
 }
+
 .buzz{
-  color: rgb(228, 77, 38);
+  background-color: rgb(228, 77, 38);
   text-decoration: underline;
 }
+
 .fizz-buzz{
-  color: rgb(228, 89, 163);
+  background-color: rgb(228, 89, 163);
   font-style: italic;
   text-decoration: underline;
 }
